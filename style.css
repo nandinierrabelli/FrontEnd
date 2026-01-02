@@ -1,0 +1,130 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+ .img{
+  background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+  height: 600px;
+  max-width: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+ .navbar{
+  /* border: 2px solid; */
+  height: 50px;
+  background-color: black;
+  color: white;
+  line-height: 45px;
+  position: sticky;
+  top:0%;
+  z-index: 1000;
+
+ }
+ .nav-links{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+ }
+ li:hover{
+  background-color: grey;
+  padding: 0px 75px;
+ }
+ .heading{
+  position: absolute;
+  top:30%;
+  left:40%;
+  font-size:100px;
+  color:white;
+ }
+ .time{
+  position: absolute;
+  bottom:80px;
+  left: 20px;
+  background-color: black;
+  color:white;
+  padding: 2px ;
+ }
+ .address{
+  position:absolute;
+  bottom: 80px;
+  right:20px;
+  color:white;
+ }
+.section {
+  /* border: 2px solid; */
+  height: 500px;
+  width: 500px;
+  text-align: center;     
+}
+.about{
+  background-color: black;
+  color:white;
+}
+.para1{
+  /* border: 2px solid; */
+  height: 80px;
+  width: 500px;
+  background-color: rgb(247, 248, 249);
+}
+  img {
+  filter: grayscale(100%);
+}
+.section1{
+  text-align: center;
+}
+.menu{
+  background-color: black;
+  color:white;
+}
+
+ .section2{
+  border: 2px solid white;
+  height: 30px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  
+ }
+ .button{
+  background-color: grey;
+  width: 100px;
+  text-align: center;
+ }
+ .section3{
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  height: 400px;
+  width: 500px;
+  margin:0 auto;
+ }
+ .section4{
+display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .find{
+  background-color: black;
+  color: white;
+ }
+ .para3{
+  text-align: center;
+ }
+ .section6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .para4{
+  text-align: center;
+ }
+ .section7{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
